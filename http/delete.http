@@ -1,0 +1,3 @@
+DELETE http://localhost/api/inventories/10
+Accept: application/json
+

@@ -1,0 +1,25 @@
+@import "bootstrap";
+$font-family: 'PT Sans Narrow', sans-serif;
+
+.layout-content {
+    margin-top: 50px;
+}
+
+.navbar-light {
+    background-color: #f2e7c3;
+}
+
+h1 {
+    font-weight: bolder;
+    font-family: $font-family;
+}
+
+.caption {
+    font-style: italic;
+    font-family: $font-family;
+}
+
+.table {
+    border: ridge 4px #3d6c6e;
+    font-family: $font-family;
+}

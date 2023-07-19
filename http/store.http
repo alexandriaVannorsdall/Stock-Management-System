@@ -1,0 +1,13 @@
+POST http://localhost/api/inventories
+Accept: application/json
+Content-Type: application/json
+
+{
+    "data": {
+        "title": "Guitar",
+        "description": "This is an electric guitar with an AMP.",
+        "price": 235,
+        "in_stock": 50,
+        "on_sale": false
+    }
+}

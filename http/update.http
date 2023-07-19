@@ -1,0 +1,14 @@
+PATCH http://localhost/api/inventories/12
+Accept: application/json
+Content-Type: application/json
+
+{
+    "data": {
+        "id": 12,
+        "title": "DJ Set",
+        "description": "A beginners DJ set",
+        "price": 150,
+        "in_stock": 435,
+        "on_sale": false
+    }
+}
